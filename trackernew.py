@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from datetime import datetime
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 # In-memory store (use a database for production)
 location_data = {}
@@ -33,5 +33,5 @@ def get_location(phone):
         return jsonify({"error": "No data for this phone"}), 404
     return jsonify(data), 200
 
-if _name_ == '_main_':
-    app.run(host='0.0.0.0', port=5000)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
