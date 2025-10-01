@@ -1,0 +1,37 @@
+#print function 
+print("hello world")
+
+#boolean factor
+print(10<100)
+print(12<1)
+
+#list data 
+print(["John", "Gideon", "Matthew"])
+
+#variables
+device_ip = "hrb23hdf"
+print(device_ip)
+
+#data trype
+device_ip = "hrb23hd"
+data_type = type(device_ip)
+print (data_type)
+
+#reassigning variables 
+device_ip = "hrb23hd"
+print(device_ip)
+device_ip = "b123uidf"
+print(device_ip)
+
+#conditional statements
+
+#failed_attempt = 
+
+#if failed_attempts > 5:
+#    print("Account locked")
+
+#create a conditional statement 
+operating_systems = "OS 3"
+
+if operating_systems =="OS 2":
+    print ("updates needed")
